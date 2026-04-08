@@ -96,6 +96,7 @@
 
       hr {
         margin: 1rem 10vw;
+        width: 80%;
         display: none;
       }
 
@@ -276,6 +277,11 @@
       .icon>svg {
         position: relative;
       }
+      
+      .our-logo {
+        width:200px;
+        height:200px;
+      }  
 
       .button-53 {
         background-color: #005F5F;
@@ -342,6 +348,11 @@
           flex-flow: column nowrap;
         }
 
+        .our-logo {
+          width:80px;
+          height:80px;
+        }  
+
         h1 {
           font-size: 3rem;
           margin-left: 0;
@@ -374,7 +385,7 @@
         }
 
         hr {
-          display: static;
+          display: inline;
         }
       }
     </style>
@@ -398,7 +409,7 @@
   <body>
     <div class="center-container">
       <div style="width: 95vw;">
-        <img src="TheAlchemistLab_Logo_Temp.png" width="200" height="200" />
+        <img class="our-logo" src="TheAlchemistLab_Logo_Temp.png" />
         <h1 class="brand-font">Welcome to the Lab!</h1>
         <h3 class="regular-font"> The workshop is currently full of <span class="highlighted-text" style="font-weight: 800;">half-finished builds and active experiments</span>, so we can't give you the full tour just yet. <br> Drop by later or follow our <a href="#" onclick="alert('Yet to set up. Sorry for the inconvinience!');">
             <b class="bounce-text" style="font-weight: 800;">
